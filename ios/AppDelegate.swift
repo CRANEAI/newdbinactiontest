@@ -16,7 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        
+        //Mark: Handle routing for user who is logged in
+        let userLoggedIn: Bool = UserDefaults.standard.bool(forKey: "isUserLoggedIn")
+
+        if (userLoggedIn){
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            var MainTabBar = mainStoryboard.instantiateViewController(withIdentifier: "MainTabBar") as! MainTabBar
+            window!.rootViewController = MainTabBar
+        }
+
+         return true 
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -44,30 +54,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-
-        //Mark: General Extension to show loading modal
-
-        extension UIViewController {
-            class func displaySpinner(onView : UIView) -> UIView {
-                let spinnerView = UIView.init(frame: onView.bounds)
-                spinnerView.backgroundColor = UIColor.init(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
-                let ai = UIActivityIndicatorView.init(activityIndicatorStyle: .whiteLarge)
-                ai.startAnimating()
-                ai.center = spinnerView.center
-                
-                DispatchQueue.main.async {
-                    spinnerView.addSubview(ai)
-                    onView.addSubview(spinnerView)
-                }
-                
-                return spinnerView
-            }
-            
-            class func removeSpinner(spinner :UIView) {
-                DispatchQueue.main.async {
-                    spinner.removeFromSuperview()
-                }
-            }
-        }
-
-        
