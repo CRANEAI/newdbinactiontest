@@ -16,17 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        //Mark: Handle routing for user who is logged in
-        let userLoggedIn: Bool = UserDefaults.standard.bool(forKey: "isUserLoggedIn")
-
-        if (userLoggedIn){
-            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            var MainTabBar = mainStoryboard.instantiateViewController(withIdentifier: "MainTabBar") as! MainTabBar
-            window!.rootViewController = MainTabBar
-        }
-
-         return true 
+        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
