@@ -58,6 +58,7 @@ var Schema = new mongoose.Schema({
      name      :{ type: String }, 
      image      :{ type: String }, 
      description      :{ type: String }, 
+     id      :{ type: String }, 
 });
 
 // Export the Mongoose model
