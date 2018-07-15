@@ -13,163 +13,163 @@ API
 */
 
 //----------------------------------------------------------------------------------------------------------
-   //ShareAction
+   //TheaterGroup
 //----------------------------------------------------------------------------------------------------------
 
 
    /**
  * @swagger
- * /api/v1/ShareAction/findByID
+ * /api/v1/TheaterGroup/findByID
  *   post:
  *     tags:
- *       - name: ShareAction
- *     description: ShareAction
+ *       - name: TheaterGroup
+ *     description: TheaterGroup
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/ShareAction/findByID'          ,  Services.ShareAction.findByID)
+app.get( __APIPATH__ + '/TheaterGroup/findByID'          ,  Services.TheaterGroup.findByID)
 
    /**
  * @swagger
- * /api/v1/ShareAction/find
+ * /api/v1/TheaterGroup/find
  *   post:
  *     tags:
- *       - name: ShareAction
- *     description: ShareAction
+ *       - name: TheaterGroup
+ *     description: TheaterGroup
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/ShareAction/find'          ,  Services.ShareAction.find)
+app.get( __APIPATH__ + '/TheaterGroup/find'          ,  Services.TheaterGroup.find)
 
    /**
  * @swagger
- * /api/v1/ShareAction/insert
+ * /api/v1/TheaterGroup/insert
  *   post:
  *     tags:
- *       - name: ShareAction
- *     description: ShareAction
+ *       - name: TheaterGroup
+ *     description: TheaterGroup
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/ShareAction/insert'          ,  Services.ShareAction.insert)
+app.get( __APIPATH__ + '/TheaterGroup/insert'          ,  Services.TheaterGroup.insert)
 
    /**
  * @swagger
- * /api/v1/ShareAction/update
+ * /api/v1/TheaterGroup/update
  *   post:
  *     tags:
- *       - name: ShareAction
- *     description: ShareAction
+ *       - name: TheaterGroup
+ *     description: TheaterGroup
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/ShareAction/update'          ,  Services.ShareAction.update)
+app.get( __APIPATH__ + '/TheaterGroup/update'          ,  Services.TheaterGroup.update)
 
    /**
  * @swagger
- * /api/v1/ShareAction/delete
+ * /api/v1/TheaterGroup/delete
  *   post:
  *     tags:
- *       - name: ShareAction
- *     description: ShareAction
+ *       - name: TheaterGroup
+ *     description: TheaterGroup
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/ShareAction/delete'          ,  Services.ShareAction.delete)
+app.get( __APIPATH__ + '/TheaterGroup/delete'          ,  Services.TheaterGroup.delete)
 //----------------------------------------------------------------------------------------------------------
-   //LikeAction
+   //ViewAction
 //----------------------------------------------------------------------------------------------------------
 
 
    /**
  * @swagger
- * /api/v1/LikeAction/findByID
+ * /api/v1/ViewAction/findByID
  *   post:
  *     tags:
- *       - name: LikeAction
- *     description: LikeAction
+ *       - name: ViewAction
+ *     description: ViewAction
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/LikeAction/findByID'          ,  Services.LikeAction.findByID)
+app.get( __APIPATH__ + '/ViewAction/findByID'          ,  Services.ViewAction.findByID)
 
    /**
  * @swagger
- * /api/v1/LikeAction/find
+ * /api/v1/ViewAction/find
  *   post:
  *     tags:
- *       - name: LikeAction
- *     description: LikeAction
+ *       - name: ViewAction
+ *     description: ViewAction
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/LikeAction/find'          ,  Services.LikeAction.find)
+app.get( __APIPATH__ + '/ViewAction/find'          ,  Services.ViewAction.find)
 
    /**
  * @swagger
- * /api/v1/LikeAction/insert
+ * /api/v1/ViewAction/insert
  *   post:
  *     tags:
- *       - name: LikeAction
- *     description: LikeAction
+ *       - name: ViewAction
+ *     description: ViewAction
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/LikeAction/insert'          ,  Services.LikeAction.insert)
+app.get( __APIPATH__ + '/ViewAction/insert'          ,  Services.ViewAction.insert)
 
    /**
  * @swagger
- * /api/v1/LikeAction/update
+ * /api/v1/ViewAction/update
  *   post:
  *     tags:
- *       - name: LikeAction
- *     description: LikeAction
+ *       - name: ViewAction
+ *     description: ViewAction
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/LikeAction/update'          ,  Services.LikeAction.update)
+app.get( __APIPATH__ + '/ViewAction/update'          ,  Services.ViewAction.update)
 
    /**
  * @swagger
- * /api/v1/LikeAction/delete
+ * /api/v1/ViewAction/delete
  *   post:
  *     tags:
- *       - name: LikeAction
- *     description: LikeAction
+ *       - name: ViewAction
+ *     description: ViewAction
  *     produces:
  *       - application/json
  *     responses:
  *       200:
  *         description: API v1
  */
-app.get( __APIPATH__ + '/LikeAction/delete'          ,  Services.LikeAction.delete)
+app.get( __APIPATH__ + '/ViewAction/delete'          ,  Services.ViewAction.delete)
 //----------------------------------------------------------------------------------------------------------
    //Person
 //----------------------------------------------------------------------------------------------------------
@@ -249,82 +249,3 @@ app.get( __APIPATH__ + '/Person/update'          ,  Services.Person.update)
  *         description: API v1
  */
 app.get( __APIPATH__ + '/Person/delete'          ,  Services.Person.delete)
-//----------------------------------------------------------------------------------------------------------
-   //BefriendAction
-//----------------------------------------------------------------------------------------------------------
-
-
-   /**
- * @swagger
- * /api/v1/BefriendAction/findByID
- *   post:
- *     tags:
- *       - name: BefriendAction
- *     description: BefriendAction
- *     produces:
- *       - application/json
- *     responses:
- *       200:
- *         description: API v1
- */
-app.get( __APIPATH__ + '/BefriendAction/findByID'          ,  Services.BefriendAction.findByID)
-
-   /**
- * @swagger
- * /api/v1/BefriendAction/find
- *   post:
- *     tags:
- *       - name: BefriendAction
- *     description: BefriendAction
- *     produces:
- *       - application/json
- *     responses:
- *       200:
- *         description: API v1
- */
-app.get( __APIPATH__ + '/BefriendAction/find'          ,  Services.BefriendAction.find)
-
-   /**
- * @swagger
- * /api/v1/BefriendAction/insert
- *   post:
- *     tags:
- *       - name: BefriendAction
- *     description: BefriendAction
- *     produces:
- *       - application/json
- *     responses:
- *       200:
- *         description: API v1
- */
-app.get( __APIPATH__ + '/BefriendAction/insert'          ,  Services.BefriendAction.insert)
-
-   /**
- * @swagger
- * /api/v1/BefriendAction/update
- *   post:
- *     tags:
- *       - name: BefriendAction
- *     description: BefriendAction
- *     produces:
- *       - application/json
- *     responses:
- *       200:
- *         description: API v1
- */
-app.get( __APIPATH__ + '/BefriendAction/update'          ,  Services.BefriendAction.update)
-
-   /**
- * @swagger
- * /api/v1/BefriendAction/delete
- *   post:
- *     tags:
- *       - name: BefriendAction
- *     description: BefriendAction
- *     produces:
- *       - application/json
- *     responses:
- *       200:
- *         description: API v1
- */
-app.get( __APIPATH__ + '/BefriendAction/delete'          ,  Services.BefriendAction.delete)
