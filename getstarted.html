@@ -10,13 +10,26 @@
 
             </head>
         <body>
-            <button class="btn">get started</button> <img src="https://apollotemp.nyc3.digitaloceanspaces.com/crane_ai/1ed8ab4c08d426c289d37b9c9f43e29f-crop1.jpg" /> <label>label</label>
+            <button class="btn">sign in</button> <img src="https://apollotemp.nyc3.digitaloceanspaces.com/crane_ai/d1e119fd79b93ad9ed25c27b17fd66e4-crop1.jpg" /> 
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
             <script>
             $( document ).ready(function() {
                 
+            //login user
+            signin = (data) => {
+                $.ajax({
+                    type: "POST",
+                    url: "api/user/login",
+                    data: data,
+                    dataType: "JSON",
+                    success: function(res){
+                        console.log("success", res)
+                    }
+                });
+            }
+            
             });
             </script>
         </body>
