@@ -56,7 +56,7 @@ input_password = new ios.Field
 	placeholder: "password"
 sign_in.addChild(input_password)
 
-button_blue_sign_in = new Layer
+button_blue_log_in = new Layer
 	midX: Screen.width / 2
 	borderRadius: 5
 	borderWidth: 0
@@ -69,8 +69,8 @@ button_blue_sign_in = new Layer
 	y: 437
 	width: 296
 	height: 52
-	html: "sign in"
-sign_in.addChild(button_blue_sign_in)
+	html: "log in"
+sign_in.addChild(button_blue_log_in)
 
 button_forgot_your_password = new Layer
 	midX: Screen.width / 2
