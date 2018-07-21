@@ -35,7 +35,7 @@ input_enter_your_email = new ios.Field
 		leading: 5
 		top: 10
 	constraints:
-			leading: 41
+			leading: 51
 			top: 218
 			width: 275
 	placeholder: "enter your email"
