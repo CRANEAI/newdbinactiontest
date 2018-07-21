@@ -26,7 +26,7 @@ button_sign_in = new Layer
 	html: "sign in"
 welcome.addChild(button_sign_in)
 
-input_email = new ios.Field
+input_enter_your_email = new ios.Field
 	width: 550
 	height: 70
 	borderRadius: 0
@@ -35,11 +35,11 @@ input_email = new ios.Field
 		leading: 5
 		top: 10
 	constraints:
-			leading: 51
-			top: 208
+			leading: 41
+			top: 218
 			width: 275
-	placeholder: "email"
-welcome.addChild(input_email)
+	placeholder: "enter your email"
+welcome.addChild(input_enter_your_email)
 
 input_password = new ios.Field
 	width: 550
