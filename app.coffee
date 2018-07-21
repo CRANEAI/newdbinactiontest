@@ -64,7 +64,7 @@ button_blue_hola = new Layer
 			color: "rgb(233,249,246 )"
 			textAlign: "center"
 			lineHeight: "2"
-			fontSize: 15
+			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
 	y: 417
 	width: 296
