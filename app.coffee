@@ -56,7 +56,7 @@ input_password = new ios.Field
 	placeholder: "password"
 welcome.addChild(input_password)
 
-button_blue_hello = new Layer
+button_blue_hola = new Layer
 	midX: Screen.width / 2
 	borderRadius: 5
 	borderWidth: 0
@@ -64,13 +64,13 @@ button_blue_hello = new Layer
 			color: "rgb(233,249,246 )"
 			textAlign: "center"
 			lineHeight: "2"
-			fontSize: 7
+			fontSize: 15
 	backgroundColor: "rgb(4,123,249 )"
-	y: 437
+	y: 417
 	width: 296
 	height: 52
-	html: "hello"
-welcome.addChild(button_blue_hello)
+	html: "hola"
+welcome.addChild(button_blue_hola)
 
 button_forgot_your_password = new Layer
 	midX: Screen.width / 2
