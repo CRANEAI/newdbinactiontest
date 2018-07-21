@@ -5,7 +5,7 @@ Framer.Extras.Hints.enable()
 Framer.Defaults.Animation.curve = 'spring(250,30,0)'
 ratio = .75 - (Screen.size.width * Screen.size.height) / ( 750 * 1334 )
 screen_ratio_0 = .75 - (Screen.size.width * Screen.size.height) / ( 1000500 )
-login = new Layer
+welcome = new Layer
 	width: 750
 	height: 1334
 	backgroundColor: "#fff"
@@ -24,7 +24,7 @@ button_sign_in = new Layer
 	width: 105
 	height: 32
 	html: "sign in"
-login.addChild(button_sign_in)
+welcome.addChild(button_sign_in)
 
 input_email = new ios.Field
 	width: 550
@@ -39,7 +39,7 @@ input_email = new ios.Field
 			top: 208
 			width: 275
 	placeholder: "email"
-login.addChild(input_email)
+welcome.addChild(input_email)
 
 input_password = new ios.Field
 	width: 550
@@ -54,9 +54,9 @@ input_password = new ios.Field
 			top: 307
 			width: 275
 	placeholder: "password"
-login.addChild(input_password)
+welcome.addChild(input_password)
 
-button_blue_howdy_login = new Layer
+button_blue_hello = new Layer
 	midX: Screen.width / 2
 	borderRadius: 5
 	borderWidth: 0
@@ -66,11 +66,11 @@ button_blue_howdy_login = new Layer
 			lineHeight: "2"
 			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
-	y: 417
+	y: 437
 	width: 296
 	height: 52
-	html: "howdy login"
-login.addChild(button_blue_howdy_login)
+	html: "hello"
+welcome.addChild(button_blue_hello)
 
 button_forgot_your_password = new Layer
 	midX: Screen.width / 2
@@ -86,7 +86,7 @@ button_forgot_your_password = new Layer
 	width: 153
 	height: 14
 	html: "forgot your password?"
-login.addChild(button_forgot_your_password)
+welcome.addChild(button_forgot_your_password)
 
 status_bar_status_bar = new ios.StatusBar
 	carrier:"Crane"
@@ -94,7 +94,7 @@ status_bar_status_bar = new ios.StatusBar
 	battery:60
 	style:"dark"
 	bluetooth: false
-login.addChild(status_bar_status_bar)
+welcome.addChild(status_bar_status_bar)
 
 flow = new FlowComponent
-flow.showNext(login, animate: true)
+flow.showNext(welcome, animate: true)
