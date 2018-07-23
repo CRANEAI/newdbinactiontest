@@ -51,7 +51,7 @@ input_password = new ios.Field
 		top: 10
 	constraints:
 			leading: 51
-			top: 367
+			top: 377
 			width: 275
 	placeholder: "password"
 sign_in.addChild(input_password)
@@ -66,7 +66,7 @@ button_blue_sign_in = new Layer
 			lineHeight: "2"
 			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
-	y: 437
+	y: 417
 	width: 296
 	height: 52
 	html: "sign in"
