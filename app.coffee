@@ -50,8 +50,8 @@ input_password = new ios.Field
 		leading: 5
 		top: 10
 	constraints:
-			leading: 41
-			top: 327
+			leading: 51
+			top: 307
 			width: 275
 	placeholder: "password"
 sign_in.addChild(input_password)
