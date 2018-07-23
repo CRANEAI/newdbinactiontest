@@ -2,7 +2,7 @@
   <h4><span >docker_stub_test</span> Readme</h4>
   <h5>Overview</h5><hr />
   
-  <p>Note: This document is a high level readme. It references used technologies, libraries, features and installation steps. All final code output can be found directly in github <a href="https://github.com/craneai/newdbinactiontest">craneai/newdbinactiontest</a>. This is a user based project.</p> 
+  <p>Note: This document is a high level readme. It references used technologies, libraries, features and installation steps. All final code output can be found directly in github <a href="https://github.com/craneai/newdbinactiontest">craneai/newdbinactiontest</a>. This is a general project.</p> 
   <br /><br />
   <p>Interactive API documentation is separated</p>
 
@@ -16,7 +16,7 @@
     <pre>
     $ git clone https://github.com/craneai/craneai/newdbinactiontest.git
     $ npm install</pre>
-    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/5c29ddd2b99b520d0a4a3ea3edeefb64-test2.jpg" className="small-peak" />
+    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/f69f33d675e70d6c5a19a85bf3107888-test2.jpg" className="small-peak" />
   <h5>Technology</h5><hr /><ul>
     <li>html (bootstrap) <span class="error">truncated</span> </li>
     <li>nodejs (express) <span class="error">truncated</span> </li>
