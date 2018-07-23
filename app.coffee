@@ -6,6 +6,7 @@ Framer.Defaults.Animation.curve = 'spring(250,30,0)'
 ratio = .75 - (Screen.size.width * Screen.size.height) / ( 750 * 1334 )
 screen_ratio_0 = .75 - (Screen.size.width * Screen.size.height) / ( 1000500 )
 # User entering his credentials to access something of value 
+
 sign_in = new Layer
 	width: 750
 	height: 1334
