@@ -1,4 +1,7 @@
+# Require iOS kit library 
 ios = require 'ios-kit'
+
+
 ratio = .75 - (Screen.size.width * Screen.size.height) / ( 750 * 1334 )
 
 
@@ -106,5 +109,7 @@ status_bar_status_bar = new ios.StatusBar
 	bluetooth: false
 sign_in.addChild(status_bar_status_bar)
 
+
+# configure screen flow
 flow = new FlowComponent
 flow.showNext(sign_in, animate: true)
