@@ -56,7 +56,7 @@ input_password = new ios.Field
 	placeholder: "password"
 sign_in.addChild(input_password)
 
-button_blue_sign_in = new Layer
+button_blue_three_fifty_two = new Layer
 	midX: Screen.width / 2
 	borderRadius: 5
 	borderWidth: 0
@@ -66,11 +66,11 @@ button_blue_sign_in = new Layer
 			lineHeight: "2"
 			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
-	y: 67
+	y: 57
 	width: 296
 	height: 52
-	html: "sign in"
-sign_in.addChild(button_blue_sign_in)
+	html: "three fifty two"
+sign_in.addChild(button_blue_three_fifty_two)
 
 button_forgot_your_password = new Layer
 	midX: Screen.width / 2
