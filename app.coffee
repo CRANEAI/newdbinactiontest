@@ -66,7 +66,7 @@ button_blue_three_fifty_two = new Layer
 			lineHeight: "2"
 			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
-	y: 57
+	y: 297
 	width: 296
 	height: 52
 	html: "three fifty two"
