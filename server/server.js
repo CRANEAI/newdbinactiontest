@@ -47,10 +47,9 @@ Server
 //----------------------------------------------------------------------------------------------------------
 
        const Services = { 
-ShareAction                 : require(__dirname +'/api/services/ShareAction.js'),
-LikeAction                 : require(__dirname +'/api/services/LikeAction.js'),
+TheaterGroup                 : require(__dirname +'/api/services/TheaterGroup.js'),
+ViewAction                 : require(__dirname +'/api/services/ViewAction.js'),
 Person                 : require(__dirname +'/api/services/Person.js'),
-BefriendAction                 : require(__dirname +'/api/services/BefriendAction.js'),
        }
 
 

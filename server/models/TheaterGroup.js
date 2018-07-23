@@ -1,0 +1,52 @@
+// Load required packages
+var mongoose = require('mongoose');
+// Define our TheaterGroup schema
+
+var Schema = new mongoose.Schema({
+     _id      :{ type: String }, 
+     createdAt      :{ type: Date }, 
+     updatedAt      :{ type: Date }, 
+     vatID      :{ type: String }, 
+     telephone      :{ type: String }, 
+     taxID      :{ type: String }, 
+     subOrganization      :{ type: String }, 
+     seeks      :{ type: String }, 
+     reviews      :{ type: String }, 
+     review      :{ type: String }, 
+     owns      :{ type: String }, 
+     naics      :{ type: String }, 
+     members      :{ type: String }, 
+     member      :{ type: String }, 
+     makesOffer      :{ type: String }, 
+     logo      :{ type: String }, 
+     location      :{ type: Object }, 
+     legalName      :{ type: String }, 
+     isicV4      :{ type: String }, 
+     interactionCount      :{ type: String }, 
+     hasPOS      :{ type: String }, 
+     globalLocationNumber      :{ type: String }, 
+     foundingDate      :{ type: String }, 
+     founders      :{ type: String }, 
+     founder      :{ type: String }, 
+     faxNumber      :{ type: String }, 
+     events      :{ type: String }, 
+     event      :{ type: String }, 
+     employees      :{ type: String }, 
+     employee      :{ type: String }, 
+     email      :{ type: String }, 
+     duns      :{ type: String }, 
+     department      :{ type: String }, 
+     contactPoints      :{ type: String }, 
+     contactPoint      :{ type: String }, 
+     brand      :{ type: String }, 
+     aggregateRating      :{ type: String }, 
+     address      :{ type: String }, 
+     url      :{ type: String }, 
+     name      :{ type: String }, 
+     image      :{ type: String }, 
+     description      :{ type: String }, 
+     id      :{ type: String }, 
+});
+
+// Export the Mongoose model
+module.exports = mongoose.model('TheaterGroup', Schema);

@@ -1,6 +1,6 @@
 // Load required packages
 var mongoose = require('mongoose');
-// Define our LikeAction schema
+// Define our ViewAction schema
 
 var Schema = new mongoose.Schema({
      _id      :{ type: String }, 
@@ -21,4 +21,4 @@ var Schema = new mongoose.Schema({
 });
 
 // Export the Mongoose model
-module.exports = mongoose.model('LikeAction', Schema);
+module.exports = mongoose.model('ViewAction', Schema);
