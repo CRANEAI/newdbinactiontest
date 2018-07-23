@@ -5,7 +5,7 @@ Framer.Extras.Hints.enable()
 Framer.Defaults.Animation.curve = 'spring(250,30,0)'
 ratio = .75 - (Screen.size.width * Screen.size.height) / ( 750 * 1334 )
 screen_ratio_0 = .75 - (Screen.size.width * Screen.size.height) / ( 1000500 )
-welcome = new Layer
+sign_in = new Layer
 	width: 750
 	height: 1334
 	backgroundColor: "#fff"
@@ -24,9 +24,9 @@ button_sign_in = new Layer
 	width: 105
 	height: 32
 	html: "sign in"
-welcome.addChild(button_sign_in)
+sign_in.addChild(button_sign_in)
 
-input_enter_your_email = new ios.Field
+input_email = new ios.Field
 	width: 550
 	height: 70
 	borderRadius: 0
@@ -36,10 +36,10 @@ input_enter_your_email = new ios.Field
 		top: 10
 	constraints:
 			leading: 51
-			top: 218
+			top: 348
 			width: 275
-	placeholder: "enter your email"
-welcome.addChild(input_enter_your_email)
+	placeholder: "email"
+sign_in.addChild(input_email)
 
 input_password = new ios.Field
 	width: 550
@@ -51,12 +51,12 @@ input_password = new ios.Field
 		top: 10
 	constraints:
 			leading: 51
-			top: 307
+			top: 417
 			width: 275
 	placeholder: "password"
-welcome.addChild(input_password)
+sign_in.addChild(input_password)
 
-button_blue_howdy = new Layer
+button_blue_sign_in = new Layer
 	midX: Screen.width / 2
 	borderRadius: 5
 	borderWidth: 0
@@ -64,13 +64,13 @@ button_blue_howdy = new Layer
 			color: "rgb(233,249,246 )"
 			textAlign: "center"
 			lineHeight: "2"
-			fontSize: 15
+			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
-	y: 417
+	y: 227
 	width: 296
 	height: 52
-	html: "howdy"
-welcome.addChild(button_blue_howdy)
+	html: "sign in"
+sign_in.addChild(button_blue_sign_in)
 
 button_forgot_your_password = new Layer
 	midX: Screen.width / 2
@@ -86,7 +86,7 @@ button_forgot_your_password = new Layer
 	width: 153
 	height: 14
 	html: "forgot your password?"
-welcome.addChild(button_forgot_your_password)
+sign_in.addChild(button_forgot_your_password)
 
 status_bar_status_bar = new ios.StatusBar
 	carrier:"Crane"
@@ -94,7 +94,35 @@ status_bar_status_bar = new ios.StatusBar
 	battery:60
 	style:"dark"
 	bluetooth: false
-welcome.addChild(status_bar_status_bar)
+sign_in.addChild(status_bar_status_bar)
+
+profile = new Layer
+	width: 750
+	height: 1334
+	backgroundColor: "#fff"
+
+
+
+input_search = new ios.Field
+	width: 572
+	height: 70
+	borderRadius: 0
+	borderWidth: 0
+	textConstraints:
+		leading: 5
+		top: 10
+	constraints:
+			leading: 36
+			top: 620
+			width: 286
+	placeholder: "search"
+profile.addChild(input_search)
+
+
+
+
+
+
 
 flow = new FlowComponent
-flow.showNext(welcome, animate: true)
+flow.showNext(sign_in, animate: true)
