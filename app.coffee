@@ -100,5 +100,26 @@ status_bar_status_bar = new ios.StatusBar
 	bluetooth: false
 sign_in.addChild(status_bar_status_bar)
 
+get_started = new Layer
+	width: 750
+	height: 1334
+	backgroundColor: "#fff"
+
+
+button_button = new Layer
+	midX: Screen.width / 2
+	borderRadius: 5
+	borderWidth: 0
+	style:
+			color: "#ffffff"
+			textAlign: "center"
+			lineHeight: "2"
+			fontSize: 0
+	backgroundColor: "#ffffff"
+	y: 305
+	width: 302
+	height: 54
+	html: "button"
+get_started.addChild(button_button)
 flow = new FlowComponent
 flow.showNext(splash, animate: true)
