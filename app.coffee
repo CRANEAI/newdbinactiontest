@@ -96,5 +96,9 @@ status_bar_status_bar = new ios.StatusBar
 	bluetooth: false
 sign_in.addChild(status_bar_status_bar)
 
+get_started = new Layer
+	width: 750
+	height: 1334
+	backgroundColor: "#fff"
 flow = new FlowComponent
 flow.showNext(sign_in, animate: true)
