@@ -66,7 +66,7 @@ button_blue_sign_in = new Layer
 			lineHeight: "2"
 			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
-	y: 287
+	y: 257
 	width: 296
 	height: 52
 	html: "sign in"
