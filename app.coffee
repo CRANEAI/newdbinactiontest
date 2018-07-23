@@ -10,6 +10,21 @@ sign_in = new Layer
 	height: 1334
 	backgroundColor: "#fff"
 
+button_sign_in = new Layer
+	midX: Screen.width / 2
+	borderRadius: 5
+	borderWidth: 0
+	style:
+			color: "#ffffff"
+			textAlign: "center"
+			lineHeight: "2"
+			fontSize: 16
+	backgroundColor: "#ffffff"
+	y: 136
+	width: 105
+	height: 32
+	html: "sign in"
+sign_in.addChild(button_sign_in)
 
 input_email = new ios.Field
 	width: 550
@@ -80,6 +95,27 @@ status_bar_status_bar = new ios.StatusBar
 	style:"dark"
 	bluetooth: false
 sign_in.addChild(status_bar_status_bar)
+
+settings = new Layer
+	width: 750
+	height: 1334
+	backgroundColor: "#fff"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 flow = new FlowComponent
 flow.showNext(sign_in, animate: true)
