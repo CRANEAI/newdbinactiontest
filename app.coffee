@@ -5,6 +5,7 @@ Framer.Extras.Hints.enable()
 Framer.Defaults.Animation.curve = 'spring(250,30,0)'
 ratio = .75 - (Screen.size.width * Screen.size.height) / ( 750 * 1334 )
 screen_ratio_0 = .75 - (Screen.size.width * Screen.size.height) / ( 1000500 )
+# User entering his credentials to access something of value 
 sign_in = new Layer
 	width: 750
 	height: 1334
@@ -56,7 +57,7 @@ input_password = new ios.Field
 	placeholder: "password"
 sign_in.addChild(input_password)
 
-button_blue_three_fifty_two = new Layer
+button_blue_sign_in = new Layer
 	midX: Screen.width / 2
 	borderRadius: 5
 	borderWidth: 0
@@ -66,11 +67,11 @@ button_blue_three_fifty_two = new Layer
 			lineHeight: "2"
 			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
-	y: 397
+	y: 437
 	width: 296
 	height: 52
-	html: "three fifty two"
-sign_in.addChild(button_blue_three_fifty_two)
+	html: "sign in"
+sign_in.addChild(button_blue_sign_in)
 
 button_forgot_your_password = new Layer
 	midX: Screen.width / 2
@@ -96,9 +97,5 @@ status_bar_status_bar = new ios.StatusBar
 	bluetooth: false
 sign_in.addChild(status_bar_status_bar)
 
-chat = new Layer
-	width: 750
-	height: 1334
-	backgroundColor: "#fff"
 flow = new FlowComponent
 flow.showNext(sign_in, animate: true)
