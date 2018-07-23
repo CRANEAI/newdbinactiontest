@@ -10,21 +10,6 @@ sign_in = new Layer
 	height: 1334
 	backgroundColor: "#fff"
 
-button_sign_in = new Layer
-	midX: Screen.width / 2
-	borderRadius: 5
-	borderWidth: 0
-	style:
-			color: "#ffffff"
-			textAlign: "center"
-			lineHeight: "2"
-			fontSize: 16
-	backgroundColor: "#ffffff"
-	y: 136
-	width: 105
-	height: 32
-	html: "sign in"
-sign_in.addChild(button_sign_in)
 
 input_email = new ios.Field
 	width: 550
@@ -36,7 +21,7 @@ input_email = new ios.Field
 		top: 10
 	constraints:
 			leading: 51
-			top: 348
+			top: 208
 			width: 275
 	placeholder: "email"
 sign_in.addChild(input_email)
@@ -51,7 +36,7 @@ input_password = new ios.Field
 		top: 10
 	constraints:
 			leading: 51
-			top: 417
+			top: 307
 			width: 275
 	placeholder: "password"
 sign_in.addChild(input_password)
@@ -66,7 +51,7 @@ button_blue_sign_in = new Layer
 			lineHeight: "2"
 			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
-	y: 227
+	y: 437
 	width: 296
 	height: 52
 	html: "sign in"
@@ -95,34 +80,6 @@ status_bar_status_bar = new ios.StatusBar
 	style:"dark"
 	bluetooth: false
 sign_in.addChild(status_bar_status_bar)
-
-profile = new Layer
-	width: 750
-	height: 1334
-	backgroundColor: "#fff"
-
-
-
-input_search = new ios.Field
-	width: 572
-	height: 70
-	borderRadius: 0
-	borderWidth: 0
-	textConstraints:
-		leading: 5
-		top: 10
-	constraints:
-			leading: 36
-			top: 620
-			width: 286
-	placeholder: "search"
-profile.addChild(input_search)
-
-
-
-
-
-
 
 flow = new FlowComponent
 flow.showNext(sign_in, animate: true)
