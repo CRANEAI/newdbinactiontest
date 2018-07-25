@@ -16,7 +16,7 @@
     <pre>
     $ git clone https://github.com/craneai/craneai/newdbinactiontest.git
     $ npm install</pre>
-    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/59b01c9c7d067c305a72015c92b6ae32-test2.jpg" className="small-peak" />
+    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/947ed7c6cd3cedfab7e85ce79ba31b78-test2.jpg" className="small-peak" />
   <h5>Technology</h5><hr /><ul>
     <li>html (bootstrap) <span class="error">truncated</span> </li>
     <li>nodejs (express) <span class="error">truncated</span> </li>
