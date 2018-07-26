@@ -8,7 +8,7 @@
 
   <h5>Overview</h5><hr />
   
-  <p>Note: This document is a high level readme. It references used technologies, libraries, features and installation steps. All final code output can be found directly in github <a href="https://github.com/craneai/newdbinactiontest">craneai/newdbinactiontest</a>. This is a user based project.</p> 
+  <p>Note: This document is a high level readme. It references used technologies, libraries, features and installation steps. All final code output can be found directly in github <a href="https://github.com/craneai/newdbinactiontest">craneai/newdbinactiontest</a>. This is a general project.</p> 
   <br /><br />
   <p>Interactive API documentation is separated</p>
 
@@ -22,7 +22,7 @@
     <pre>
     $ git clone https://github.com/craneai/craneai/newdbinactiontest.git
     $ npm install</pre>
-    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/1a9f14242d6f1da70f47b0a60956cccc-test2.jpg" className="small-peak" />
+    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/bdaed3cd52b1e5e93198dd562bb72fda-test2.jpg" className="small-peak" />
   <h5>Technology</h5><hr /><ul>
     <li>html (bootstrap) <span class="error">truncated</span> </li>
     <li>nodejs (express) <span class="error">truncated</span> </li>
