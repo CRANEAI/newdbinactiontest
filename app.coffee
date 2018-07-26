@@ -79,7 +79,7 @@ button_blue_sign_uo = new Layer
 			lineHeight: "2"
 			fontSize: 7
 	backgroundColor: "rgb(4,123,249 )"
-	y: 57
+	y: 67
 	width: 296
 	height: 52
 	html: "sign uo"
