@@ -1,0 +1,22 @@
+
+                {
+                "name": "spec.name",
+                "version": "1.0.0",
+                "description": "spec.description",
+                "main": "server.js",
+                "scripts": {
+                  "start": "node server.js"
+                },
+                "author": "Anni for FusionCode",
+                "license": "MIT",
+                "engines": {
+                    "node": "8.9.4"
+                },
+                "dependencies": {
+                    "router": "1.3.3",
+"passport": "0.4.0",
+"express": "4.16.3",
+"path": "0.12.7",
+"cors": "2.8.4"
+                }
+            
