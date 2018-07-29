@@ -12,6 +12,13 @@
   <br /><br />
   <p>Interactive API documentation is separated</p>
 
+  <h5>Requirements</h5> <p>
+ the docker_stub_test project launches with sign in. from sign in user can tap sign in button from client app triggering login user function making post request to network operation to login user which will interface with user model by calling login. the project requires user models. it runs a nodejs (express) api server and will store data in mongodb database. user model requires security planning for auth. 
+ router - Simple middleware-style router. 
+ passport - Simple, unobtrusive authentication for Node.js.. 
+ express - Fast, unopinionated, minimalist web framework. 
+ path - Node.JS path module. 
+ cors - Node.js CORS middleware
   
     <h5>Key Features</h5> <p>Highlighted tasks in the project:</p><li>onboarding</li><iframe style="width:100%" src="http://localhost:5002/api/v1/ai/diagram" frameborder=0></iframe><br /><h6><b>sign in</b></h6><p>This screen contains text fields and buttons that allow users to login to an app or website</p><h5>Installation</h5><hr />
     <h6>Requirements</h6>
@@ -23,6 +30,7 @@
     $ git clone https://github.com/craneai/craneai/newdbinactiontest.git
     $ npm install</pre>
     <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/bdaed3cd52b1e5e93198dd562bb72fda-test2.jpg" className="small-peak" />
+  
   <h5>Technology</h5><hr /><ul>
     <li>html (bootstrap) <span class="error">truncated</span> </li>
     <li>nodejs (express) <span class="error">truncated</span> </li>
