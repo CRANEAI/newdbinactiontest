@@ -1,6 +1,7 @@
 
             const router = require("express").Router();
             
+            console.log("one page")
             /*
             * login function 
             */
