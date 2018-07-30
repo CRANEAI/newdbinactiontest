@@ -1,7 +1,7 @@
 
             const router = require("express").Router();
             
-            console.log("one 3412-234")
+            console.log("one out")
             /*
             * login function 
             */
