@@ -29,7 +29,7 @@
     <pre>
     $ git clone https://github.com/craneai/craneai/newdbinactiontest.git
     $ npm install</pre>
-    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/c40a53af6ae0e5f66ee4030f9ebd65ce-directfromsketch.jpg" className="small-peak" />
+    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/7301168b95e95a5089227d98028cf251-directfromsketch.jpg" className="small-peak" />
   
   <h5>Technology</h5><hr /><ul>
     <li>html (bootstrap) <span class="error">truncated</span> </li>
