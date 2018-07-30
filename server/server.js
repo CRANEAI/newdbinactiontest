@@ -34,7 +34,7 @@ const cors = require("cors")
              * 
              */
 
-console.log("testing comps here")
+console.log("testing comps here second")
 
             const port = process.env.PORT || 5000;
 
