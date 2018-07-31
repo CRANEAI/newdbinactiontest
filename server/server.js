@@ -28,16 +28,15 @@ app.use("/api/v1", require("./api/v1/routes"))
 */
 app.use(express.static(path.join(__dirname, 'public/')));
 
-            /**
-             * Launch Server
-             * 
-             */
-
+/**
+  * Launch Server
+  * 
+ */
 console.log("testing comps here second")
 
-            const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
-            app.listen(port, ()=>{
-                console.log("listening on port", port)
-            })
+app.listen(port, ()=>{
+  console.log("listening on port", port)
+})
             
