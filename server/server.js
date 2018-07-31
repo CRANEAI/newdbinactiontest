@@ -14,13 +14,13 @@ app.use((req, res, next) => {
   res.setHeader("X-XSS-Protection", "1");
   res.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
   next()
-  })
+})
             
-            /**
-            * Api Directories
-            * 
-            */
-            app.use("/api/v1", require("./api/v1/routes"))
+/**
+  * Api Directories
+  * 
+*/
+app.use("/api/v1", require("./api/v1/routes"))
 
             /**
              * Static file serving directories
