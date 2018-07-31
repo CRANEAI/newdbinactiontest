@@ -22,11 +22,11 @@ app.use((req, res, next) => {
 */
 app.use("/api/v1", require("./api/v1/routes"))
 
-            /**
-             * Static file serving directories
-             * 
-             */
-            app.use(express.static(path.join(__dirname, 'public/')));
+/**
+  * Static file serving directories
+  * 
+*/
+app.use(express.static(path.join(__dirname, 'public/')));
 
             /**
              * Launch Server
