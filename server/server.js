@@ -10,11 +10,11 @@ app.use(express.json({
 app.use(cors())
             
 app.use((req, res, next) => {
-                res.setHeader("X-Content-Type-Options", "nosniff");
-                res.setHeader("X-XSS-Protection", "1");
-                res.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
-                next()
-              })
+  res.setHeader("X-Content-Type-Options", "nosniff");
+  res.setHeader("X-XSS-Protection", "1");
+  res.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
+  next()
+  })
             
             /**
             * Api Directories
