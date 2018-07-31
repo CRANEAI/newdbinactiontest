@@ -1,9 +1,16 @@
 
-  <h4><span >docker_stub_test</span> Readme</h4>
+  <h1 align="center" style="border-bottom: none;">📦 <span >docker_stub_test</span> Readme</h1>
 
+  <h3 align="center">missing about</h3>
+
+  <p align="center">
   [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
   [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+  </p>
+
+  <h5>Highlights</h5><hr />
 
 
   <h5>Overview</h5><hr />
@@ -29,7 +36,7 @@
     <pre>
     $ git clone https://github.com/craneai/craneai/newdbinactiontest.git
     $ npm install</pre>
-    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/7233449eb8ef0511c7c75138ff136c6f-directfromsketch.jpg" className="small-peak" />
+    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/74ee647ff6b603eadd52af2d8ec9def2-directfromsketch.jpg" className="small-peak" />
   
   <h5>Technology</h5><hr /><ul>
     <li>html (bootstrap) <span class="error">truncated</span> </li>
