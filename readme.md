@@ -1,5 +1,5 @@
 
-  <h1 align="center" style="border-bottom: none;">📦 <span >docker_stub_test</span> Readme</h1>
+  <h1 align="center" style="border-bottom: none;">📦 <span >docker_stub_test</span></h1>
 
   <h3 align="center">missing about</h3>
 
@@ -36,7 +36,7 @@
     <pre>
     $ git clone https://github.com/craneai/craneai/newdbinactiontest.git
     $ npm install</pre>
-    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/74ee647ff6b603eadd52af2d8ec9def2-directfromsketch.jpg" className="small-peak" />
+    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/4d2fd187d3819675f478205db4fdf625-directfromsketch.jpg" className="small-peak" />
   
   <h5>Technology</h5><hr /><ul>
     <li>html (bootstrap) <span class="error">truncated</span> </li>
