@@ -1,7 +1,6 @@
 
-const router = require("express").Router();
+            const router = require("express").Router();
             
-console.log("one out 1")
             /*
             * login function 
             */
