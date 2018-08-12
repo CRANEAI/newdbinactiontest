@@ -29,7 +29,7 @@
  path - Node.JS path module. 
  cors - Node.js CORS middleware
   
-    <h5>Key Features</h5> <p>Highlighted tasks in the project:</p><li>onboarding</li><iframe style="width:100%" src="http://localhost:5002/api/v1/ai/diagram" frameborder=0></iframe><br /><h6><b>sign in</b></h6><p>This screen contains text fields and buttons that allow users to login to an app or website</p><h5>Installation</h5><hr />
+    <h5>Key Features</h5> <p>Highlighted tasks in the project:</p><li>onboarding</li><iframe style="width:100%" src="http://127.0.0.1:5002/api/v1/ai/diagram" frameborder=0></iframe><br /><h6><b>sign in</b></h6><p>This screen contains text fields and buttons that allow users to login to an app or website</p><h5>Installation</h5><hr />
     <h6>Requirements</h6>
     <ul>
       <li>Node 8+</li>
@@ -38,7 +38,7 @@
     <pre>
     $ git clone https://github.com/craneai/craneai/newdbinactiontest.git
     $ npm install</pre>
-    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/34ae2ace2b30c2bd6f88ae50d95cebaf-directfromsketch.jpg" className="small-peak" />
+    <h5>Assets</h5><hr /><img src="https://apollocommand.nyc3.digitaloceanspaces.com/crane_ai/c44212c0edda563d2da8c874e5ef1ab0-directfromsketch.jpg" className="small-peak" />
   
   <h5>Technology</h5><hr /><ul>
     <li>html (bootstrap) <span class="error">truncated</span> </li>
