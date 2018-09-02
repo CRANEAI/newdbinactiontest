@@ -10,13 +10,26 @@
 
             </head>
         <body>
-            <div class="form-group">  <input type="text" class="form-control" placeholder="email" />  </div><div class="form-group">  <input type="password" class="form-control" placeholder="password" />  </div><button class="btn">button</button> <label>label</label><img src="https://apollotemp.nyc3.digitaloceanspaces.com/crane_ai/156490ac55c17404010a4e1efad9127f-crop1.jpg" /> 
+            <button class="btn">sign in</button> <button class="btn">forgot your password?</button> <button class="btn">done</button> <button class="btn">button</button> 
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
             <script>
             $( document ).ready(function() {
                 
+            //login user
+            signin = (data) => {
+                $.ajax({
+                    type: "POST",
+                    url: "api/user/login",
+                    data: data,
+                    dataType: "JSON",
+                    success: function(res){
+                        console.log("success", res)
+                    }
+                });
+            }
+            
             });
             </script>
         </body>
