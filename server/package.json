@@ -10,8 +10,7 @@
                 "author": "Anni for FusionCode",
                 "license": "MIT",
                 "dependencies": {
-                    "router": "1.3.3",
-"express": "4.16.3",
+                    "express": "4.16.3",
 "path": "0.12.7",
 "cors": "2.8.4"
                 },
